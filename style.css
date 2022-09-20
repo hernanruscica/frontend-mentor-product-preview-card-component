@@ -1,0 +1,87 @@
+:root{
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+    --fs-paragraph: 14px;
+    --ff-fraunces : 'Fraunces', serif;
+    --ff-monserrat: 'Montserrat', sans-serif;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cream);
+    font-family: var(--ff-monserrat);
+}
+
+img {
+ width: 100%;
+ height: auto;
+}
+
+.card {
+    background-color: var(--white);
+    width: 340px;    
+    margin: 1em auto 1em;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card__text-container {
+    padding: 1.4em;
+}
+
+.card__text-container__category {
+    text-transform: uppercase;
+    color: var(--dark-grayish-blue);
+    letter-spacing: 0.4em;
+    font-weight: 500;
+    font-size: 0.8em;    
+}
+
+.card__text-container__title {
+    font-family: var(--ff-fraunces);    
+    margin: 0.2em 0em 0.4em 0;
+}
+
+.card__text-container__paragraph {
+    font-size: var(--fs-paragraph);
+    color: var(--dark-grayish-blue);
+    line-height: 1.8em;    
+    margin: 1em 0em;
+}
+
+.card__text-container__price__discount {
+    font-family: var(--ff-fraunces);
+    font-size: 1.8em;
+    color: var(--dark-cyan);
+}
+
+.card__text-container_price__actual {
+    color: var(--dark-grayish-blue);
+    text-decoration: line-through;
+}
+
+.btn {
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    font-size: 1em;
+    padding: 0.8em;
+    margin-top: 1em;
+
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
