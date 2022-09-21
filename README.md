@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/hernanruscica/frontend-mentor-product-preview-card-component)
-- Live Site URL: [Add live site URL here](https://hernanruscica.github.io/frontend-mentor-product-preview-card-component/)
+- Solution URL: [solution code](https://github.com/hernanruscica/frontend-mentor-product-preview-card-component)
+- Live Site URL: [live site ](https://hernanruscica.github.io/frontend-mentor-product-preview-card-component/)
 
 ## My process
 I split the product card in two, the image container and the text container. That way I can change the flebox atributte flex-direction from "column" to "row".
