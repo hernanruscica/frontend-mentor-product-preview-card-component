@@ -59,7 +59,7 @@ img {
 }
 
 /* MEDIAS QUERIES start*/
-@media (min-width: 1440px){
+@media (min-width: 1080px){
     .card {
         flex-direction: row;
         width: 540px;
