@@ -122,6 +122,10 @@ img {
     padding: 1.2em;
     margin: 1em 0em 0.5em 0em;
 }
+.btn:hover {
+    cursor: pointer;
+    background-color: hsl(158, 37%, 29%);
+}
 .btn__icon {
     margin-right: 0.8em;
 }
